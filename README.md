@@ -26,9 +26,14 @@
 ## Inicia la Instalacion:
 
 ```bash
-> cd NyanBot
-> bash install.sh
-```
+> cd && termux-setup-storage
+> apt-get update -y && apt-get upgrade -y
+> pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+> git clone https://github.com/Samu330/NyanBot
+&&cd NyanBot-MD
+> yarn install
+> npm install
+> npm start
 
 ### Para correr el bot usa:
 ```bash
